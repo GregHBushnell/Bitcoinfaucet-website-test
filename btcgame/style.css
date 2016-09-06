@@ -1,0 +1,129 @@
+body {
+    background-color: gray;
+}
+.headerContainer{
+	background-color: #1A3333;
+	width:100%;
+	display:inline-block;
+	height:20%;
+}
+.headerMiddle{
+	color: white;
+	text-align: center;
+	float:left;
+	width:33.3%;
+	height:100%;
+	border: 2px solid yellow;
+	
+}
+.headerLeft{
+	color: white;
+	text-align: center;
+	float:left;
+	width:33%;
+	height:100%;
+	border: 2px solid yellow;
+}
+.headerRight{
+	color: white;
+	text-align: center;
+	float:left;
+	width:33%;
+	height:100%;
+	border: 2px solid yellow;
+}
+.content{
+	text-align: center;
+	border: 2px solid yellow;
+	height:100%;
+	padding-top:5%;
+}
+.loginRegister{
+	float:right;
+}
+.loginRegister ul {
+	list-style: none;
+}
+#PopUpLR{
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.PopUpLRContent{
+	background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 1%;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+	height:15%;
+}
+.closeLR {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeLR:hover,
+.closeLR:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#lrBtn{
+	 background:none!important;
+     border:none; 
+     padding:0!important;
+     font: inherit; 
+     cursor: pointer;
+	 color:white;
+	 display: block;
+}
+#LogOutBtn{
+	background:none!important;
+     border:none; 
+     padding:0!important;
+     font: inherit; 
+     cursor: pointer;
+	 color:white;
+	 display: block;
+}
+.loginBoxContainer{
+	border: 2px solid yellow;
+	float:left;
+	height:100%
+}
+.loginBox{
+	float:left;
+}
+.loginBox ul {
+	list-style: none;
+}
+.loginBox li {
+	width:50%;
+	float:none;
+	padding-bottom:2%;
+}
+.registerBoxContainer{
+	border: 2px solid yellow;
+	float:right;
+	height:100%
+}
+.registerBox{
+	
+}
+.registerBox ul {
+	list-style: none;
+}
+.registerBox li {
+	width:50%;
+	float:none;
+	padding-bottom:2%;
+}
